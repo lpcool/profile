@@ -1,0 +1,61 @@
+/* Here goes your CSS */
+
+body {
+  background-color: rgb(220, 220, 220);
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #FF530D;
+  font-size: 25px;
+}
+
+h2 {
+  color: #3C0009;
+  font-size: 20px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF530D;
+}
+
+.card {
+  background: rgba(240, 240, 240, 0.7);
+  width: 450px;
+  margin: 20 auto;
+  padding: 70px;
+  border: 2px solid #0962EA;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  }
+
+#banner {
+  background-image: url("image/VolvoC30.jpg");
+  background-size: cover;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
